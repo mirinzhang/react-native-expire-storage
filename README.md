@@ -24,7 +24,7 @@ Storage.setItem('key1', {data: {name: 'tom', age: 12}, id: 0, str: 'key1 data'},
 
 Storage.getItem('key1'); // {data: {name: 'tom', age: 12}, id: 0, str: 'key1 data'}
 
-Storage.mergeItem('key1', {{data: {age: 13}, id: 0, str: 'key1 data changed'}});
+Storage.mergeItem('key1', {{data: {age: 13}, str: 'key1 data changed'}});
 
 Storage.getItem('key1'); // {data: {name: 'tom', age: 13}, id: 0, str: 'key1 data changed'}
 
