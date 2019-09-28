@@ -19,5 +19,8 @@
     "bugs": {
         "url": "https://github.com/MiRinZhang/react-native-expire-storage/issues"
     },
-    "homepage": "https://github.com/MiRinZhang/react-native-expire-storage"
+    "homepage": "https://github.com/MiRinZhang/react-native-expire-storage",
+    "dependencies": {
+        "@react-native-community/async-storage": "^1.6.2"
+    }
 }
