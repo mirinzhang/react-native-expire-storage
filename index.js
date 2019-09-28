@@ -1,7 +1,7 @@
 /**
  * @description Storage data with expiration time
  */
-import { AsyncStorage } from 'react-native';
+import AsyncStorage from '@react-native-community/async-storage';
 
 /**
  * Set storage
