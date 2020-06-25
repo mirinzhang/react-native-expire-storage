@@ -55,7 +55,7 @@ const getItem = async (key) => {
     try {
         const result = await AsyncStorage.getItem(key);
 
-        return checkCacheData(result,key);
+        return checkCacheData(result, key);
     } catch (e) {
         return e;
     }
@@ -98,8 +98,9 @@ const getAllKeys = async () => {
 /**
  * Check storage data
  * @param {object} result
+ * @param {string} key
  */
-function checkCacheData(result,key) {
+function checkCacheData(result, key) {
     if (!result) {
         return null;
     }
